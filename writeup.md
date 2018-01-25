@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 ## 1. Describe the pipeline. 
 
-My pipeline consists of 5 steps.
+My pipeline basically consists 6 steps.
 
 Step 1. Use Gaussian kernel for smoothing to reduce noise | Step 2. Apply canny edge detection using gradients
  :---:|:---:  
