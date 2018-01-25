@@ -37,15 +37,16 @@ The polygon vertices is automatically adapted to different size of images / vide
 
 ## 2. Result
 Test Images:
-solidWhiteCurve                                                     | solidWhiteRight 
-:------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:
+
+solidWhiteCurve | solidWhiteRight 
+ :---:|:---:  
 ![solidWhiteCurve](./test_images_output/solidWhiteCurve_output.jpg) | ![solidWhiteRight](./test_images_output/solidWhiteRight_output.jpg)
 
 solidYellowCurve2 | solidYellowCurve
  :---:|:---:  
 ![solidYellowCurve2](./test_images_output/solidYellowCurve2_output.jpg) | ![solidYellowCurve](./test_images_output/solidYellowCurve_output.jpg)
-solidYellowLeft | whiteCarLaneSwitch
 
+solidYellowLeft | whiteCarLaneSwitch
  :---:|:---:  
 ![solidYellowLeft](./test_images_output/solidYellowLeft_output.jpg) | ![whiteCarLaneSwitch](./test_images_output/whiteCarLaneSwitch_output.jpg)
 
