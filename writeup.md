@@ -33,7 +33,8 @@ For Step 5:
 * use position and slope signs to seperate left and right lanes
 * only consider lines with slope difference <=0.1 from the longest line
 * calculate weighted average (weighted by line length) slope and intercept of the longest 5 lines
-* get the coordinates of the final connected line
+* get the coordinates of the final connected line: the bottom of the line is at the bottom of the image; the top of the lines are at the smallest y of pre-connected lines detected (right and life separately)
+
 
 
 ## 2. Result
@@ -54,7 +55,7 @@ solidYellowLeft | whiteCarLaneSwitch
 Test Videos:
 solidWhiteRight | solidYellowLeft | challenge
  :---:|:---:|:---:  
-![solidWhiteRight](./test_videos_out/solidWhiteRight.mp4) | ![solidYellowLeft](./test_videos_out/solidYellowLeft.mp4) | ![challenge](./test_videos_out/challenge.mp4)
+![solidWhiteRight](https://www.youtube.com/embed/yLxLWYqXMPI?ecver=1) | ![solidYellowLeft](./test_videos_out/solidYellowLeft.mp4) | ![challenge](./test_videos_out/challenge.mp4)
 
 
 ## 3. Identify potential shortcomings with your current pipeline
