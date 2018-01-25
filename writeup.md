@@ -53,9 +53,10 @@ solidYellowLeft | whiteCarLaneSwitch
 ![solidYellowLeft](./test_images_output/solidYellowLeft_output.jpg) | ![whiteCarLaneSwitch](./test_images_output/whiteCarLaneSwitch_output.jpg)
 
 Test Videos:
+
 solidWhiteRight | solidYellowLeft | challenge
  :---:|:---:|:---:  
-[![solidWhiteRight]()](https://youtu.be/0XKdxOibcpw) | [![solidYellowLeft](https://github.com/chenglulu1127/CarND-LaneLines-P1/blob/master/test_images_output/for_writeup/Screen%20Shot%202018-01-25%20at%204.23.12%20PM.png)](https://www.youtube.com/embed/yLxLWYqXMPI?ecver=1) | [![challenge]()](https://youtu.be/N1mx8rq15PY)
+[![solidWhiteRight](https://github.com/chenglulu1127/CarND-LaneLines-P1/blob/master/test_images_output/for_writeup/Screen%20Shot%202018-01-25%20at%204.28.09%20PM.png)](https://youtu.be/0XKdxOibcpw) | [![solidYellowLeft](https://github.com/chenglulu1127/CarND-LaneLines-P1/blob/master/test_images_output/for_writeup/Screen%20Shot%202018-01-25%20at%204.23.12%20PM.png)](https://www.youtube.com/embed/yLxLWYqXMPI?ecver=1) | [![challenge](https://github.com/chenglulu1127/CarND-LaneLines-P1/blob/master/test_images_output/for_writeup/Screen%20Shot%202018-01-25%20at%204.29.24%20PM.png)](https://youtu.be/N1mx8rq15PY)
 
 
 ## 3. Identify potential shortcomings with your current pipeline
