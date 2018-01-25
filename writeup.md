@@ -16,18 +16,19 @@ The goals / steps of this project are the following:
 
 My pipeline consists of 5 steps.
 
-1. Use Gaussian kernel for smoothing to reduce noise | 2. Apply canny edge detection using gradients
+Step 1. Use Gaussian kernel for smoothing to reduce noise | Step 2. Apply canny edge detection using gradients
  :---:|:---:  
 ![image1](./test_images_output/for_writeup/solidWhiteCurve_blurred.jpg) | ![image2](./test_images_output/for_writeup/solidWhiteCurve_canny_edges.jpg)
 
-3. Define a four sided polygon to mask | 4. Run Hough on edge detected image to find lines
+Step 3. Define a four sided polygon to mask | Step 4. Run Hough on edge detected image to find lines
  :---:|:---:  
 The polygon vertices is automatically adapted to different size of images / videos | ![image3](./test_images_output/for_writeup/solidWhiteCurve_hough.jpg)
 
-5. Connect detected lines by applying the following steps |  6. Draw lines onto image using weighted sum of original image and a blank image with detected lines on it
+Step 5. Connect detected lines by applying steps noted below |  Step 6. Draw lines onto image using weighted sum of original image and a blank image with detected lines on it
  :---:|:---:  
- ![image4](./test_images_output/for_writeup/solidWhiteCurve_line_img.jpg) | ![image5](./test_images_output/for_writeup/solidWhiteCurve_final.jpg)
+![image4](./test_images_output/for_writeup/solidWhiteCurve_line_img.jpg) | ![image5](./test_images_output/for_writeup/solidWhiteCurve_final.jpg)
 
+For Step 5:
 * remove near horizental lines
 * use position and slope signs to seperate left and right lanes
 * only consider lines with slope difference <=0.1 from the longest line
