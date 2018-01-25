@@ -55,7 +55,7 @@ solidYellowLeft | whiteCarLaneSwitch
 Test Videos:
 solidWhiteRight | solidYellowLeft | challenge
  :---:|:---:|:---:  
-[![solidWhiteRight]] | [![solidYellowLeft]()](https://www.youtube.com/embed/yLxLWYqXMPI?ecver=1) | ![challenge](./test_videos_out/challenge.mp4)
+[![solidWhiteRight]] | [![solidYellowLeft](https://github.com/chenglulu1127/CarND-LaneLines-P1/blob/master/test_images_output/for_writeup/Screen%20Shot%202018-01-25%20at%204.23.12%20PM.png)](https://www.youtube.com/embed/yLxLWYqXMPI?ecver=1) | ![challenge](./test_videos_out/challenge.mp4)
 
 
 ## 3. Identify potential shortcomings with your current pipeline
