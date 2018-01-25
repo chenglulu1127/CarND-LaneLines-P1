@@ -14,25 +14,25 @@ The goals / steps of this project are the following:
 
 ## 1. Describe the pipeline. 
 
-My pipeline consists of 5 steps. 
-### Step 1. Use Gaussian kernel for smoothing to reduce noise 
-![image1](./test_images_output/for_writeup/solidWhiteCurve_blurred.jpg) 
-### Step 2. Apply canny edge detection using gradients
-![image2](./test_images_output/for_writeup/solidWhiteCurve_canny_edges.jpg)
-### Step 3. Define a four sided polygon to mask 
-The polygon vertices is automatically adapted to different size of images / videos
-### Step 4. Run Hough on edge detected image to find lines
-### Step 5. Connect detected lines by applyingn the following steps|  
+My pipeline consists of 5 steps.
+
+1. Use Gaussian kernel for smoothing to reduce noise | 2. Apply canny edge detection using gradients
+ :---:|:---:  
+![image1](./test_images_output/for_writeup/solidWhiteCurve_blurred.jpg) | ![image2](./test_images_output/for_writeup/solidWhiteCurve_canny_edges.jpg)
+
+3. Define a four sided polygon to mask | 4. Run Hough on edge detected image to find lines
+ :---:|:---:  
+The polygon vertices is automatically adapted to different size of images / videos | ![image3](./test_images_output/for_writeup/solidWhiteCurve_hough.jpg)
+
+5. Connect detected lines by applying the following steps |  6. Draw lines onto image using weighted sum of original image and a blank image with detected lines on it
+ :---:|:---:  
+ ![image4](./test_images_output/for_writeup/solidWhiteCurve_line_img.jpg) | ![image5](./test_images_output/for_writeup/solidWhiteCurve_final.jpg)
+
 * remove near horizental lines
 * use position and slope signs to seperate left and right lanes
 * only consider lines with slope difference <=0.1 from the longest line
 * calculate weighted average (weighted by line length) slope and intercept of the longest 5 lines
 * get the coordinates of the final connected line
-
-![image3](./test_images_output/for_writeup/solidWhiteCurve_line_img.jpg)
-
-### Step 6. Draw lines onto image using weighted sum of original image and a blank image with detected lines on it
-![image4](./test_images_output/for_writeup/solidWhiteCurve_final.jpg)
 
 
 ## 2. Result
